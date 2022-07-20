@@ -18,8 +18,8 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_KERNEL_CONFIG := munch_defconfig
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_munch
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_munch
+TARGET_RECOVERY_DEVICE_MODULES := libinit_munch
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
