@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Dolby Support
+TARGET_USES_MIUI_DOLBY := true
+
 # IDC
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
