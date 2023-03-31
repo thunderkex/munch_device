@@ -24,5 +24,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_munch
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Miui Camera
+TARGET_INCLUDES_MIUI_CAMERA := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/munch/BoardConfigVendor.mk

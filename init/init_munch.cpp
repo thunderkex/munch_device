@@ -72,6 +72,7 @@ void set_device_props(const string brand, const string model, const string name,
         set_ro_build_prop(source, "brand", brand);
         set_ro_build_prop(source, "model", model);
         set_ro_build_prop(source, "name", name);
+        set_ro_build_prop(source, "mod_device", "munch_in_global");
         set_ro_build_prop(source, "marketname", marketname);
     }
 }

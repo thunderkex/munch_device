@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
+
 # A/B
 TARGET_IS_VAB := true
 
