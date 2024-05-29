@@ -11,9 +11,10 @@ TARGET_IS_VAB := true
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
+PRODUCT_PACKAGES += \
+    MunchFrameworksRes \
+    MunchSettingsOverlay \
+    MunchSystemUIOverlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
